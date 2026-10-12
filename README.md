@@ -1,92 +1,186 @@
-# 👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
-This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
+# Customer Behaviour Analysis
 
-This project is perfect for:
-- 📊 Data Analyst aspirants who want to build a strong **Portfolio Project** for interviews and LinkedIn
-- 📚 Anyone learning Python, SQL, and Power BI
-- 💼 Professionals preparing for interviews in Data Analytics, Data Science or Product Analytics roles
-
-# **🎥 Watch this [YouTube video](https://www.youtube.com/watch?v=5PrZvPeUw60&list=PLAx-M6Di0SisFJ1rv5M_FRHUlGA5rtUf_&index=3) to implement the full project from scratch:**  
-[![Advanced Data Analysis Portfolio Project using Retail Customer Data](https://github.com/user-attachments/assets/abbb6371-a0b2-4bec-a304-7c7da98658b6)](https://www.youtube.com/watch?v=x8dfQkKTyP0&list=PLAx-M6Di0SisFJ1rv5M_FRHUlGA5rtUf_&index=2)
-🔗 *Link to Video:* [Watch on Youtube](https://www.youtube.com/watch?v=5PrZvPeUw60&list=PLAx-M6Di0SisFJ1rv5M_FRHUlGA5rtUf_&index=3)
-
+An end-to-end data analytics project exploring customer shopping behaviour using Python, SQL, Streamlit, Plotly, and Power BI.
 
 ## 📌 Project Overview
-The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
-✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
+This project analyses a customer shopping dataset containing 3,900 records and 18 columns to explore purchase amounts, product categories, seasons, discounts, subscriptions, shopping frequency, and customer ratings.
 
-✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
+The goal is to turn raw customer data into meaningful business insights using data analysis, SQL queries, customer segmentation, and interactive visualisations.
 
-✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
+## 🚀 Features
 
-✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
+### 1. Interactive Streamlit Dashboard
 
-![Project Workflow](https://github.com/user-attachments/assets/8bbd5dc9-eb6c-40c1-8f19-c08b4107f654)
+* Interactive filters for category, season, gender, and subscription status.
+* KPI cards for customer count, average purchase amount, total recorded purchase amount, and average review rating.
+* Interactive charts for category performance, seasonal purchasing, purchase distributions, gender comparisons, and discount usage.
+* Searchable data table and filtered-data download.
 
-## 🛠️ How to Use This Project
+### 2. Data Quality Analysis
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
-   cd customer-trends-data-analysis-SQL-Python-PowerBI
-   ```
-2. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
+* Identifies missing values and duplicate records.
+* Summarises column data types and numerical statistics.
+* Checks business rules such as valid review ratings, non-negative purchase amounts, valid ages, and previous purchase counts.
+* Exports data quality reports as CSV files.
 
-    This file contains:
+### 3. Customer Segmentation
 
-      - Data Import
+* Builds customer profiles using purchase amount, previous purchases, ratings, subscription status, and shopping frequency.
+* Assigns rule-based customer segments.
+* Generates customer-level segment data and segment summaries.
 
-      - Data exploration
+**Note:** These are predefined rule-based groups, not results from a trained clustering model or validated predictions.
 
-      - Data cleaning
+### 4. SQL Business Analytics
 
-      - Connection to SQL Database
-  
-3. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
+SQL queries analyse:
 
-      - Create a database in SQL
+* Overall shopping metrics.
+* Purchase amounts by product category.
+* Subscription behaviour.
+* Discount and promotional code usage.
+* Shopping frequency.
+* Seasonal category performance.
+* Spending groups.
+* Review ratings by category.
+* Payment methods.
 
-      - Run Python code to load data into SQL database
-  
-      - Open **customer_behavior_sql_queries.sql**
-  
-      - Answer Business Questions using SQL Queries 
-      
-4. **Connect the SQL Database to Power BI**
+### 5. Power BI Dashboard
 
-      - Open **customer_behavior_dashboard.pbix**
-   
-      - Create interactive dashboard in Power BI
-  
-6. **Create Project Report and Presentation**
+The repository includes a Power BI dashboard file for interactive business reporting and visual analysis.
 
-      - Create project report
-   
-      - Build presentation deck using Gamma AI
-  
-7. **Follow along with the YouTube video for full walkthrough. 👨‍💼**
+## 🛠️ Technology Stack
 
+* **Python** — Data processing and analysis
+* **Pandas and NumPy** — Data manipulation
+* **SQLite and SQL** — Database queries and business analytics
+* **Streamlit** — Interactive web dashboard
+* **Plotly** — Interactive visualisations
+* **Power BI** — Business intelligence and reporting
+* **Git and GitHub** — Version control
 
-## 📜 License
+## 📂 Project Structure
 
-MIT — feel free to fork, star, and use in your portfolio.
+```text
+customer-behaviour-analysis/
+│
+├── src/
+│   ├── dashboard.py
+│   ├── data_quality_report.py
+│   ├── customer_segmentation.py
+│   └── run_sql_analytics.py
+│
+├── reports/
+│   ├── dataset_summary.csv
+│   ├── column_quality_report.csv
+│   ├── business_rule_issues.csv
+│   ├── numeric_summary.csv
+│   ├── customer_segments.csv
+│   └── customer_segment_summary.csv
+│
+├── customer_behavior_advanced_queries.sql
+├── customer_shopping_behavior.csv
+├── Customer_Shopping_Behavior_Analysis.ipynb
+├── customer_behavior_dashboard.pbix
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
 
-## 👨‍💻 About the Author
-Hey, I’m Amlan Mohanty, a Data Analyst & Content Creator.
-I break down complex data topics into simple, practical content that actually helps you land a job.
+The repository may also contain the original project documents and supporting files.
 
- ### 🚀 Stay Connected & Join my Data Community
-If you enjoyed this project and want to keep learning and growing as a data analyst, let’s stay in touch! I regularly share content around SQL, data analytics, portfolio projects, job tips, and more.
+## 📊 Dataset Description
 
-🎥 YouTube: [Amlan Mohanty](https://www.youtube.com/@amlanmohanty1)
-- Beginner-friendly tutorials, real-world projects, job and career advice
+The dataset contains **3,900 records and 18 columns**, including:
 
-📺 Instagram: [datacareerschool](https://www.instagram.com/datacareerschool/)
-- Quick SQL tips, data memes, and behind-the-scenes content
+* Customer ID
+* Age and gender
+* Item purchased and product category
+* Purchase amount
+* Location, size, colour, and season
+* Review rating
+* Subscription status
+* Shipping type
+* Discount and promotional code usage
+* Previous purchases
+* Payment method
+* Frequency of purchases
 
-💼 LinkedIn: [Amlan Mohanty](https://www.linkedin.com/in/amlanmohanty1/)
-- Let’s connect professionally and grow your data career
+The review rating column contains 37 missing values. The data quality report identifies these missing values rather than treating them as valid ratings.
 
+## 💻 Getting Started
 
-## 💡 Thanks for checking out the project! Your support means a lot! Feel free to star ⭐ this repo or share it with someone learning Data Analytics.🚀
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Varshithareddy2603/customer-behaviour-analysis.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd customer-behaviour-analysis
+```
+
+### 3. Install dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Run the interactive dashboard
+
+```bash
+python -m streamlit run src/dashboard.py
+```
+
+Open the local URL displayed in your terminal to access the dashboard.
+
+### 5. Generate data quality reports
+
+```bash
+python src/data_quality_report.py
+```
+
+### 6. Generate customer segments
+
+```bash
+python src/customer_segmentation.py
+```
+
+### 7. Run SQL analytics
+
+```bash
+python src/run_sql_analytics.py
+```
+
+Generated reports are saved in the `reports/` directory.
+
+## 📈 Key Business Insights
+
+The initial analysis identified the following patterns:
+
+* **3,900 customer records** and 3,900 unique customer IDs.
+* **$59.76** average recorded purchase amount.
+* **$233,081** sum of recorded purchase amounts.
+* **Clothing** has the highest number of records among the product categories.
+* **Footwear** has the highest average review rating among the listed categories.
+
+These findings are descriptive and based on the supplied dataset. The dataset does not contain transaction dates or order IDs, so this project does not claim time-based revenue trends or customer lifetime value.
+
+## 🔮 Future Improvements
+
+* Deploy the Streamlit dashboard online and add a live demo link.
+* Add automated tests for data validation and analytics.
+* Evaluate customer segments against defined business objectives.
+* Expand exploratory data analysis and statistical testing.
+* Add dashboard screenshots and a documented insights section.
+* Automate data profiling for uploaded datasets.
+
+## 👩‍💻 Author
+
+**Varshitha Reddy Mothe**
+
+* **GitHub Profile:** https://github.com/Varshithareddy2603
+* **Project Repository:** https://github.com/Varshithareddy2603/customer-behaviour-analysis
