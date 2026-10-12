@@ -1,0 +1,8 @@
+purchase_frequency,customer_records,avg_purchase_amount,avg_previous_purchases
+Quarterly,563,59.98,26.85
+Weekly,539,58.97,25.77
+Monthly,553,59.33,25.28
+Fortnightly,542,59.05,25.27
+Every 3 Months,584,60.08,24.96
+Bi-Weekly,547,60.69,24.79
+Annually,572,60.17,24.56

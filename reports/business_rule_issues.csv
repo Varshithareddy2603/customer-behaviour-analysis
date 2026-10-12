@@ -1,0 +1,12 @@
+rule,issue_count,details
+Missing customer IDs,0,Customer IDs should be present.
+Invalid customer IDs,0,Customer IDs should be positive numeric values.
+Repeated customer IDs,0,Review repeated IDs before treating records as individual customers.
+Review ratings outside 1-5,0,Review ratings should be between 1 and 5.
+Unparseable review ratings,0,Review ratings should be numeric.
+Negative purchase amounts,0,Review negative purchase amounts.
+Unparseable purchase amounts,0,Purchase amounts should be numeric.
+Invalid ages,0,Review ages outside the range 1-120.
+Unparseable ages,0,Age values should be numeric.
+Invalid previous purchase counts,0,Previous purchase counts should not be negative.
+Unparseable previous purchase counts,0,Previous purchase counts should be numeric.

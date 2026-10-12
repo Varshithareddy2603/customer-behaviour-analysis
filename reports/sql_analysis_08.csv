@@ -1,0 +1,4 @@
+spending_group,customer_records,avg_purchase_amount,avg_previous_purchases
+High Purchase Amount,1254,87.69,25.4
+Medium Purchase Amount,1180,61.99,25.48
+Lower Purchase Amount,1466,34.09,25.2

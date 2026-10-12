@@ -1,0 +1,17 @@
+Season,Category,customer_records,total_purchase_amount,avg_purchase_amount
+Fall,Clothing,427,26220,61.41
+Fall,Accessories,324,19874,61.34
+Fall,Footwear,136,8665,63.71
+Fall,Outerwear,88,5259,59.76
+Spring,Clothing,454,27692,61.0
+Spring,Accessories,301,17007,56.5
+Spring,Footwear,163,9555,58.62
+Spring,Outerwear,81,4425,54.63
+Summer,Clothing,408,23078,56.56
+Summer,Accessories,312,19028,60.99
+Summer,Footwear,160,9393,58.71
+Summer,Outerwear,75,4278,57.04
+Winter,Clothing,448,27274,60.88
+Winter,Accessories,303,18291,60.37
+Winter,Footwear,140,8480,60.57
+Winter,Outerwear,80,4562,57.02

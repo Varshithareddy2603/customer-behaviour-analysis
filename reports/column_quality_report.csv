@@ -1,0 +1,19 @@
+column,data_type,missing_count,missing_percentage,unique_values,duplicate_values
+Customer ID,int64,0,0.0,3900,0
+Age,int64,0,0.0,53,3847
+Gender,object,0,0.0,2,3898
+Item Purchased,object,0,0.0,25,3875
+Category,object,0,0.0,4,3896
+Purchase Amount (USD),int64,0,0.0,81,3819
+Location,object,0,0.0,50,3850
+Size,object,0,0.0,4,3896
+Color,object,0,0.0,25,3875
+Season,object,0,0.0,4,3896
+Review Rating,float64,37,0.95,26,3873
+Subscription Status,object,0,0.0,2,3898
+Shipping Type,object,0,0.0,6,3894
+Discount Applied,object,0,0.0,2,3898
+Promo Code Used,object,0,0.0,2,3898
+Previous Purchases,int64,0,0.0,50,3850
+Payment Method,object,0,0.0,6,3894
+Frequency of Purchases,object,0,0.0,7,3893

@@ -1,0 +1,7 @@
+payment_method,customer_records,avg_purchase_amount,total_purchase_amount
+Credit Card,671,60.07,40310
+PayPal,677,59.25,40109
+Cash,670,59.7,40002
+Debit Card,636,60.92,38742
+Venmo,634,58.95,37374
+Bank Transfer,612,59.71,36544

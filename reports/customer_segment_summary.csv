@@ -1,0 +1,6 @@
+customer_segment,customers,avg_purchase_amount,avg_previous_purchases,avg_review_rating
+Experienced Shoppers,1653,46.72,34.54,3.73
+High-Spending Repeat Shoppers,769,87.83,35.42,3.8
+General Shoppers,683,75.63,9.96,3.76
+Frequent-Shopping Pattern,399,58.34,9.69,3.74
+Lower-Spending Shoppers,396,33.8,9.78,3.72
